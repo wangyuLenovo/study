@@ -22,6 +22,7 @@ public class MapDemo {
             objectObjectConcurrentHashMap.put("WY"+i,"哈哈哈"+i);
         }
         WriterHelper.writeObjInfo(objectObjectConcurrentHashMap);
+        WriterHelper.writeObjInfo("kkkkk");
     }
 
 
