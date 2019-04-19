@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="value in object">
+            {{ value }}
+        </li>
+    </ul>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            object: {
+                name: '菜鸟教程11111111111111111111',
+                url: 'https://www.runoob.com',
+                slogan: '学的不仅是技术，更是梦想！'
+            }
+        }
+    })
+</script>
+</body>
+</html>
